@@ -1,0 +1,23 @@
+package ObjectOrientedProgramming.MethodOverloading;
+
+public class Calculator {
+    public int add(int a , int b){
+        return a+b;
+    }
+
+    public int add(int a, int b, int c){
+        return a+b+c;
+    }
+
+    public double add(double a, double b){
+        return a+b;
+    }
+
+    public double multiply(int a , int b){
+        return a * b * 1.0;
+    }
+
+    public double multiply(int a , double b){
+        return a*b ;
+    }
+}
